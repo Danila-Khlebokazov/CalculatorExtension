@@ -1,0 +1,15 @@
+{
+    "manifest_version" : 3,
+    "name" : "Calculator",
+    "version" : "1.2",
+    "description" : "Calculate Anywhere",
+    "icons" : {
+        "128" : "img/icon128.png"
+    },
+    "action" : {
+        "default_popup" : "popup.html"
+    },
+    "content_security_policy": { 
+        "extension_pages":  "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'"
+    }
+}

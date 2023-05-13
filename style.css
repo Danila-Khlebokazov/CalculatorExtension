@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    --default-color: rgba(0, 0, 0, 0.879);
+    --btn-color: #fce77d;
+
+    background-color: white;
+    width: 200px;
+    padding: 2px;
+    text-align: center;
+}
+.holder{
+    background-color: var(--default-color);
+    border-radius: 10px;
+}
+.additional{
+    padding: 5px;
+}
+
+input{
+    border: none;
+    font-size: 40px;
+    color: white;
+    background-color:transparent;
+    max-width: 90%;
+    text-align: right;
+}
+#resultField{
+    margin-top: 15px;
+}
+input:focus{
+    border: none;
+    outline: none;
+}
+#actionField{
+    font-size: 15px;
+    direction: rtl;
+    width: 70%;
+}
+#numberField{
+    font-size: 20px;
+    width: 80%;
+}
+
+button{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: none;
+    margin: 2px;
+    background-color: rgb(66, 66, 66);
+    color: white;
+}
+
+button:hover{
+    background-color: grey;
+}
+
+#zero_btn{
+    width: 87px;
+    border-radius: 20px;
+}
+
+.action_btn{
+    background-color: orange;
+}
+.action_btn:hover{
+    background-color: white;
+    color: orange;
+}
+.cur_action{
+    background-color: white;
+    color: orange;
+}
+
+.spec_btn{
+    background-color: rgb(179, 179, 179);
+    color: black;
+}
+.spec_btn:hover{
+    background-color: rgb(220, 217, 217);
+}
+
+.media_link{
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+#gitlogo{
+    width: 20px;
+    border-radius: 50%;
+    transform: translateY(4px);
+}
