@@ -28,6 +28,9 @@ var sb = document.getElementById("substract");
 var mb = document.getElementById("multiply");
 
 function change_act(act){
+    if (act != ""){
+        calculate();
+    }
     op = act;
     document.getElementById("actionField").value = op;
 
@@ -85,7 +88,7 @@ function calculate(){
       document.getElementById("resultField").value=number1;
       number2 = 0;
       document.getElementById("numberField").value = "";
-      change_act("")
+      change_act("");
     // var input = document.getElementById("resultField").value
     // const value = eval(input)
     // document.getElementById("resultField").value=value
