@@ -8,10 +8,6 @@ This is an updated version of calculator extension with manifest version 3 and u
 
 ### Calculator
 
-# Describtion
- 
-The project is for the tutorial purpose regarding **How to create google chrome extension**
-
 # Installation
 
 - Clone this project `git clone `
