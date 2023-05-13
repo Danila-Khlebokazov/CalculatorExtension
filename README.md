@@ -4,7 +4,7 @@ This is an updated version of calculator extension with manifest version 3 and u
 
 # Introduction
 
-<img src="https://p.kindpng.com/picc/s/77-772110_calculator-icon-png-calculator-icon-transparent-png.png">
+<img src="img/icon128.png">
 
 ### Calculator
 
